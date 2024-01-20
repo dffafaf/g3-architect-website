@@ -79,7 +79,40 @@ nav li a{
         flex-direction: column;
     }
     header{
-        padding: 50px;
+        padding: 50px ;
     }
     
 }
+
+/* main section*/
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /*teams*/
+  .teams-container{
+    display: flex;
+    align-items: center;
+  }
+  .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .teams-title{
+    font-size: 45px;
+  }
+ .teams-title .list-quick{
+      font-weight: 500;
+      color: #727272;
+ }
+.teams-title .text-feature{
+    color: #FF900E;
+    font-weight: 700;
+
+ }
